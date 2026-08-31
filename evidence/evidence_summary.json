@@ -1,0 +1,80 @@
+{
+  "template_sha256": "8201f712600e40f81db568f882a73d2bbfa6fe812887d43194ac8691ceb2ae73",
+  "exports_total": 30,
+  "exports_retained": 29,
+  "frames_all": 46402,
+  "frames_retained": 45560,
+  "adb_sessions": 27,
+  "browser_compatible_sessions": 2,
+  "acc_frozen_sessions": 5,
+  "orientation_frozen_sessions": 28,
+  "all_state_counts": {
+    "gaze": 25543,
+    "idle": 7708,
+    "postural_shift": 520,
+    "scanning": 1003,
+    "head_turn": 9423,
+    "sudden_turn": 2205
+  },
+  "retained_state_counts": {
+    "gaze": 25412,
+    "idle": 6998,
+    "scanning": 1003,
+    "head_turn": 9423,
+    "postural_shift": 519,
+    "sudden_turn": 2205
+  },
+  "adb_state_counts": {
+    "sudden_turn": 2160,
+    "head_turn": 8876,
+    "postural_shift": 435,
+    "gaze": 23816,
+    "idle": 4832
+  },
+  "browser_state_counts": {
+    "gaze": 1596,
+    "idle": 2166,
+    "scanning": 1003,
+    "head_turn": 547,
+    "postural_shift": 84,
+    "sudden_turn": 45
+  },
+  "retained_duration_min": 122.0,
+  "retained_duration_median": 387.194,
+  "retained_duration_max": 539.451,
+  "annotation": {
+    "inter_rater": {
+      "n": 661,
+      "agreement": 0.789712556732224,
+      "kappa": 0.5930145511727316,
+      "ci95_cluster": [
+        0.5028762547513169,
+        0.6878101793728356
+      ]
+    },
+    "machine_vs_rater_a": {
+      "n": 661,
+      "agreement": 0.7715582450832073,
+      "kappa": 0.567479611381226,
+      "ci95_cluster": [
+        0.39206766423299794,
+        0.6515084064508487
+      ]
+    },
+    "machine_vs_rater_b": {
+      "n": 661,
+      "agreement": 0.8033282904689864,
+      "kappa": 0.6041879704096766,
+      "ci95_cluster": [
+        0.3761283943938601,
+        0.6922074547709902
+      ]
+    }
+  },
+  "alignment_confident": 10,
+  "alignment_candidates": 19,
+  "selected_reference_count": 28,
+  "reference_status_counts": {
+    "PASS": 28
+  }
+}

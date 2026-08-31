@@ -1,0 +1,31 @@
+﻿file_id,subject,frames,duration_s,retained,median_dt_s,median_rate_hz,dt_cv,path_group,path_certainty,acc_unique_4dp,acc_frozen,frozen_accMag,gyro_sd,gyro_active,orientation_frozen_zero,scanning_frames,postural_shift_frames,window_nominal_s,source_file
+1776754772978,S002,842,8.41,False,0.01,100.0,0.0,browser-compatible,mechanism-compatible; exact browser branch unavailable because source was not retained,9,False,,0.0048,False,False,0,1,0.2,imu_analysis_1776754772978.csv
+1776821554249,S001,3000,362.446,True,0.12,8.3333,0.0613,browser-compatible,mechanism-compatible; exact browser branch unavailable because source was not retained,1979,False,,0.2515,True,False,1003,28,2.4,imu_analysis_1776821554249.csv
+1776824662730,S005,2016,539.451,True,0.267,3.7453,0.0272,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1450,False,,0.3474,True,True,0,39,5.34,imu_analysis_1776824662730.csv
+1776825800472,S006,1879,500.924,True,0.267,3.7453,0.0251,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1477,False,,0.4037,True,True,0,43,5.34,imu_analysis_1776825800472.csv
+1776827240332,S007,1736,463.461,True,0.267,3.7453,0.0249,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1513,False,,0.4173,True,True,0,97,5.34,imu_analysis_1776827240332.csv
+1776828552202,S008,1860,497.167,True,0.267,3.7453,0.0248,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1337,False,,0.383,True,True,0,50,5.34,imu_analysis_1776828552202.csv
+1776830107430,S009,2441,122.0,True,0.05,20.0,0.0,browser-compatible,mechanism-compatible; exact browser branch unavailable because source was not retained,1616,False,,0.3271,True,True,0,56,1.0,imu_analysis_1776830107430.csv
+1776842825545,S010,1821,487.41,True,0.266,3.7594,0.0433,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1459,False,,0.4273,True,True,0,36,5.32,imu_analysis_1776842825545.csv
+1776844051112,S011,1638,439.913,True,0.267,3.7453,0.0483,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1414,False,,0.3583,True,True,0,82,5.34,imu_analysis_1776844051112.csv
+1776846533989,S012,1450,387.194,True,0.266,3.7594,0.0401,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1133,False,,0.2101,True,True,0,29,5.32,imu_analysis_1776846533989.csv
+1776847632327,S013,1831,489.983,True,0.266,3.7594,0.0441,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1502,False,,0.4868,True,True,0,59,5.32,imu_analysis_1776847632327.csv
+1776991265337,S015,946,266.976,True,0.266,3.7594,0.5732,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1,True,9.7335,0.2983,True,True,0,0,5.32,imu_analysis_1776991265337.csv
+1776998386020,S017,1159,327.605,True,0.268,3.7313,0.5472,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1,True,9.7335,0.3987,True,True,0,0,5.36,imu_analysis_1776998386020.csv
+1776999562464,S018,1178,335.396,True,0.269,3.7175,0.5657,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1,True,9.7335,0.5392,True,True,0,0,5.38,imu_analysis_1776999562464.csv
+1777000526552,S019,1136,328.189,True,0.274,3.6496,0.5543,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1,True,9.7335,0.5933,True,True,0,0,5.48,imu_analysis_1777000526552.csv
+1777002144701,S020,1063,306.854,True,0.272,3.6765,0.5714,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1,True,9.7335,0.3965,True,True,0,0,5.44,imu_analysis_1777002144701.csv
+1777010515392,S021,1163,327.034,True,0.267,3.7453,0.5472,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,451,False,,0.2121,True,True,0,0,5.34,imu_analysis_1777010515392.csv
+1777011363810,S022,1114,315.999,True,0.267,3.7453,0.5889,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,807,False,,0.6673,True,True,0,0,5.34,imu_analysis_1777011363810.csv
+1777012565224,S023,1134,319.411,True,0.267,3.7453,0.5564,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,798,False,,0.6047,True,True,0,0,5.34,imu_analysis_1777012565224.csv
+1777013387851,S024,1146,325.699,True,0.268,3.7313,0.5794,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,774,False,,0.5216,True,True,0,0,5.36,imu_analysis_1777013387851.csv
+1777014295491,S025,1156,326.689,True,0.267,3.7453,0.5805,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,720,False,,0.4699,True,True,0,0,5.34,imu_analysis_1777014295491.csv
+1777017440813,S026,1080,306.314,True,0.266,3.7594,0.5974,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,884,False,,0.5783,True,True,0,0,5.32,imu_analysis_1777017440813.csv
+1777019914575,S027,1837,515.62,True,0.265,3.7736,0.5613,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,534,False,,0.2328,True,True,0,0,5.3,imu_analysis_1777019914575.csv
+1777022706323,S028,968,271.896,True,0.265,3.7736,0.5612,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,340,False,,0.2952,True,True,0,0,5.3,imu_analysis_1777022706323.csv
+1777023729187,S029,1814,509.836,True,0.265,3.7736,0.5644,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1000,False,,0.3144,True,True,0,0,5.3,imu_analysis_1777023729187.csv
+1777024675993,S030,1887,531.484,True,0.265,3.7736,0.5679,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,920,False,,0.3197,True,True,0,0,5.3,imu_analysis_1777024675993.csv
+1777025679136,S031,1808,509.508,True,0.266,3.7594,0.5694,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1036,False,,0.3621,True,True,0,0,5.32,imu_analysis_1777025679136.csv
+1777026812944,S032,1797,505.96,True,0.266,3.7594,0.5668,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,854,False,,0.2767,True,True,0,0,5.32,imu_analysis_1777026812944.csv
+1777027785844,S033,1773,499.362,True,0.265,3.7736,0.5687,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,1100,False,,0.4916,True,True,0,0,5.3,imu_analysis_1777027785844.csv
+1777028938686,S034,1729,485.979,True,0.265,3.7736,0.5588,ADB-like,mechanism-compatible with blocking dumpsys sensorservice polling,760,False,,0.4001,True,True,0,0,5.3,imu_analysis_1777028938686.csv

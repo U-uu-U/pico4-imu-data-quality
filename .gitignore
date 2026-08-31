@@ -1,0 +1,12 @@
+*.docx
+render/
+scripts/__pycache__/
+figures/*.tiff
+qa/render_EN.txt
+qa/render_check_EN.pdf
+template_distill/render/
+*.pyc
+
+# Private build inputs and local configuration are intentionally excluded.
+private_inputs/
+.env

@@ -1,0 +1,38 @@
+﻿check,status,value,expected
+English manuscript exists,PASS,Sensors_IMU_Revision_English_20260827.docx,file exists
+Chinese manuscript exists,PASS,Sensors_IMU_Revision_Chinese_View_20260827.docx,file exists
+Response letter exists,PASS,Response_to_Reviewers_English_20260827.docx,file exists
+Risk brief exists,PASS,作者质询与投稿前风险清单_20260827.docx,file exists
+English manuscript has title,PASS,title found,title found
+English manuscript has standard sections,PASS,section markers,five sections
+English manuscript has six figures,PASS,6,>=6
+English manuscript has appendices,PASS,appendix markers,A-C
+English manuscript legacy-mainline audit,PASS,none,none
+Chinese manuscript has title,PASS,title found,title found
+Chinese manuscript has standard sections,PASS,section markers,five sections
+Chinese manuscript has six figures,PASS,6,>=6
+Chinese manuscript has appendices,PASS,appendix markers,A-C
+Chinese manuscript legacy-mainline audit,PASS,none,none
+English technical keywords,PASS,"IMU, Pico 4, WebXR, DeviceMotion, WebSocket, data mapping, quality control",all present
+Reference count,PASS,28,28 selected Crossref-verified references
+Reference indices used,PASS,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",1-28
+Main manuscript has no duplicate Table 2,PASS,1,1
+Main manuscript has no revision insert,PASS,absent,absent
+English tables have complete borders,PASS,11/11,all
+English tables have fixed geometry,PASS,11/11,all
+English abstract within MDPI 200-word limit,PASS,197,<=200 words
+English keyword count,PASS,8,3-10
+Back-matter section parity EN/CN,PASS,EN 10 / CN 10,equal counts
+Kappa fair-band lower bound disclosed,PASS,min CI low 0.376; disclosed=True,disclosed when any CI < 0.41
+Sampling-adequacy statement present,PASS,True,Nyquist discussed
+Participant count stated,PASS,stated,explicit N
+No pooled cross-route acceleration denominator,PASS,absent,absent
+Author-owned back-matter placeholders resolved,AUTHOR,"4 awaiting author input: Author Contributions, Funding, Institutional Review Board Statement, Data Availability Statement","0 (author must supply ethics, funding, data-availability, CRediT)"
+Data exports,PASS,30,30
+Retained sessions,PASS,29,29
+ADB-like primary cohort,PASS,27,27
+Browser-compatible cohort,PASS,2,2
+Accelerometer freeze audit,PASS,5,5
+Orientation freeze audit,PASS,28,28
+Annotation evidence,PASS,661,661 common bins
+Reference Crossref statuses,PASS,{'PASS': 28},28 PASS

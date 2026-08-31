@@ -1,0 +1,9 @@
+﻿feature,role_en,role_cn,adb_n,adb_mean,adb_sd,browser_n,browser_mean,browser_sd,cohen_d_browser_minus_adb,interpretation
+gyro_mean,Mean magnitude in the exported gyro field,导出 gyro 字段幅值均值,27,0.264881,0.111639,2,0.193767,0.024061,-0.648562,descriptive only; browser N=2 and field semantics may differ
+head_turn_ratio,Ordinary-turn output fraction,普通转头输出比例,27,0.222259,0.079642,2,0.112006,0.157929,-1.314801,descriptive only; browser N=2 and field semantics may differ
+sudden_turn_ratio,Abrupt-turn output fraction,突然转头输出比例,27,0.059516,0.05507,2,0.008378,0.001477,-0.946284,descriptive only; browser N=2 and field semantics may differ
+behavior_entropy,Entropy of exported state sequence,导出状态序列熵,27,1.116542,0.315753,2,1.312793,0.364955,0.617703,descriptive only; browser N=2 and field semantics may differ
+gaze_mean_duration,Mean duration of gaze segments (s),gaze 片段平均时长（s）,27,2.029625,1.375638,2,0.452255,0.091877,-1.168389,descriptive only; browser N=2 and field semantics may differ
+postural_shift_ratio,Acceleration-gated postural-shift fraction,加速度门控姿态调整比例,22,0.011229,0.017326,2,0.016137,0.009622,0.287853,descriptive only; browser N=2 and field semantics may differ
+acc_cv,Coefficient of variation of acceleration magnitude,加速度幅值变异系数,22,0.018189,0.010276,2,0.019034,0.001872,0.084036,descriptive only; browser N=2 and field semantics may differ
+freeze_ratio,Fraction of gaze plus idle outputs,gaze 与 idle 输出合计比例,27,0.398581,0.157654,2,0.440059,0.043924,0.267706,descriptive only; browser N=2 and field semantics may differ
