@@ -4,6 +4,7 @@ scripts/__pycache__/
 figures/*.tiff
 qa/render_EN.txt
 qa/render_check_EN.pdf
+qa/qa_report.csv
 template_distill/render/
 *.pyc
 

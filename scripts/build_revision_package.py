@@ -1942,7 +1942,6 @@ def verify_release_package() -> bool:
         "figures/figure5_threshold_sensitivity.png",
         "figures/figure6_channel_quality.png",
         "qa/qa_summary.md",
-        "qa/qa_report.csv",
         "交接索引_20260827.md",
     ]
     checks: dict[str, object] = {}

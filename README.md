@@ -13,7 +13,7 @@ Working package for the third revision dated 2026-08-27. The repository focuses 
 | `scripts/build_revision_package.py` | Release verifier and sole full-build entry point |
 | `evidence/` | Session audit, route-stratified features, annotation agreement, confusion matrices, threshold sensitivity, and Crossref DOI audit |
 | `figures/` | Six publication figures in PNG format |
-| `qa/` | QA report and summary from the private full-build run |
+| `qa/qa_summary.md` | QA summary from the private full-build run |
 | `交接索引_20260827.md` | Chinese evidence and handoff index |
 
 ## Verified snapshot
