@@ -1,0 +1,76 @@
+﻿pair,taxonomy,reference_label,comparison_label,count
+inter-rater A vs B,coarse_3,low_head_motion,low_head_motion,416
+inter-rater A vs B,coarse_3,low_head_motion,ordinary_head_motion,23
+inter-rater A vs B,coarse_3,low_head_motion,rapid_head_motion,7
+inter-rater A vs B,coarse_3,ordinary_head_motion,low_head_motion,44
+inter-rater A vs B,coarse_3,ordinary_head_motion,ordinary_head_motion,125
+inter-rater A vs B,coarse_3,ordinary_head_motion,rapid_head_motion,2
+inter-rater A vs B,coarse_3,rapid_head_motion,low_head_motion,2
+inter-rater A vs B,coarse_3,rapid_head_motion,ordinary_head_motion,14
+inter-rater A vs B,coarse_3,rapid_head_motion,rapid_head_motion,28
+rule output vs rater A,coarse_3,low_head_motion,low_head_motion,370
+rule output vs rater A,coarse_3,low_head_motion,ordinary_head_motion,70
+rule output vs rater A,coarse_3,low_head_motion,rapid_head_motion,6
+rule output vs rater A,coarse_3,ordinary_head_motion,low_head_motion,49
+rule output vs rater A,coarse_3,ordinary_head_motion,ordinary_head_motion,115
+rule output vs rater A,coarse_3,ordinary_head_motion,rapid_head_motion,7
+rule output vs rater A,coarse_3,rapid_head_motion,low_head_motion,9
+rule output vs rater A,coarse_3,rapid_head_motion,ordinary_head_motion,9
+rule output vs rater A,coarse_3,rapid_head_motion,rapid_head_motion,26
+rule output vs rater B,coarse_3,low_head_motion,low_head_motion,383
+rule output vs rater B,coarse_3,low_head_motion,ordinary_head_motion,76
+rule output vs rater B,coarse_3,low_head_motion,rapid_head_motion,3
+rule output vs rater B,coarse_3,ordinary_head_motion,low_head_motion,35
+rule output vs rater B,coarse_3,ordinary_head_motion,ordinary_head_motion,111
+rule output vs rater B,coarse_3,ordinary_head_motion,rapid_head_motion,16
+rule output vs rater B,coarse_3,rapid_head_motion,low_head_motion,10
+rule output vs rater B,coarse_3,rapid_head_motion,ordinary_head_motion,7
+rule output vs rater B,coarse_3,rapid_head_motion,rapid_head_motion,20
+inter-rater A vs B,neutral_6,low_motion_rule,low_motion_rule,365
+inter-rater A vs B,neutral_6,low_motion_rule,moderate_turn_rule,22
+inter-rater A vs B,neutral_6,low_motion_rule,rapid_turn_rule,7
+inter-rater A vs B,neutral_6,low_motion_rule,residual_rule_output,14
+inter-rater A vs B,neutral_6,moderate_turn_rule,low_motion_rule,44
+inter-rater A vs B,neutral_6,moderate_turn_rule,moderate_turn_rule,125
+inter-rater A vs B,neutral_6,moderate_turn_rule,rapid_turn_rule,2
+inter-rater A vs B,neutral_6,moderate_turn_rule,residual_rule_output,0
+inter-rater A vs B,neutral_6,rapid_turn_rule,low_motion_rule,2
+inter-rater A vs B,neutral_6,rapid_turn_rule,moderate_turn_rule,14
+inter-rater A vs B,neutral_6,rapid_turn_rule,rapid_turn_rule,28
+inter-rater A vs B,neutral_6,rapid_turn_rule,residual_rule_output,0
+inter-rater A vs B,neutral_6,residual_rule_output,low_motion_rule,33
+inter-rater A vs B,neutral_6,residual_rule_output,moderate_turn_rule,1
+inter-rater A vs B,neutral_6,residual_rule_output,rapid_turn_rule,0
+inter-rater A vs B,neutral_6,residual_rule_output,residual_rule_output,4
+rule output vs rater A,neutral_6,low_motion_rule,low_motion_rule,0
+rule output vs rater A,neutral_6,low_motion_rule,moderate_turn_rule,24
+rule output vs rater A,neutral_6,low_motion_rule,rapid_turn_rule,6
+rule output vs rater A,neutral_6,low_motion_rule,residual_rule_output,378
+rule output vs rater A,neutral_6,moderate_turn_rule,low_motion_rule,0
+rule output vs rater A,neutral_6,moderate_turn_rule,moderate_turn_rule,97
+rule output vs rater A,neutral_6,moderate_turn_rule,rapid_turn_rule,7
+rule output vs rater A,neutral_6,moderate_turn_rule,residual_rule_output,67
+rule output vs rater A,neutral_6,rapid_turn_rule,low_motion_rule,0
+rule output vs rater A,neutral_6,rapid_turn_rule,moderate_turn_rule,7
+rule output vs rater A,neutral_6,rapid_turn_rule,rapid_turn_rule,26
+rule output vs rater A,neutral_6,rapid_turn_rule,residual_rule_output,11
+rule output vs rater A,neutral_6,residual_rule_output,low_motion_rule,0
+rule output vs rater A,neutral_6,residual_rule_output,moderate_turn_rule,4
+rule output vs rater A,neutral_6,residual_rule_output,rapid_turn_rule,0
+rule output vs rater A,neutral_6,residual_rule_output,residual_rule_output,34
+rule output vs rater B,neutral_6,low_motion_rule,low_motion_rule,0
+rule output vs rater B,neutral_6,low_motion_rule,moderate_turn_rule,32
+rule output vs rater B,neutral_6,low_motion_rule,rapid_turn_rule,3
+rule output vs rater B,neutral_6,low_motion_rule,residual_rule_output,409
+rule output vs rater B,neutral_6,moderate_turn_rule,low_motion_rule,0
+rule output vs rater B,neutral_6,moderate_turn_rule,moderate_turn_rule,95
+rule output vs rater B,neutral_6,moderate_turn_rule,rapid_turn_rule,16
+rule output vs rater B,neutral_6,moderate_turn_rule,residual_rule_output,51
+rule output vs rater B,neutral_6,rapid_turn_rule,low_motion_rule,0
+rule output vs rater B,neutral_6,rapid_turn_rule,moderate_turn_rule,5
+rule output vs rater B,neutral_6,rapid_turn_rule,rapid_turn_rule,20
+rule output vs rater B,neutral_6,rapid_turn_rule,residual_rule_output,12
+rule output vs rater B,neutral_6,residual_rule_output,low_motion_rule,0
+rule output vs rater B,neutral_6,residual_rule_output,moderate_turn_rule,0
+rule output vs rater B,neutral_6,residual_rule_output,rapid_turn_rule,0
+rule output vs rater B,neutral_6,residual_rule_output,residual_rule_output,18

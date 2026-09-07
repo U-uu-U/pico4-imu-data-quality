@@ -1,0 +1,4 @@
+﻿path_group,n_sessions,n_adjacent_pairs,n_changed_pairs,weighted_changed_pair_fraction,session_median_changed_pair_fraction,session_q1_changed_pair_fraction,session_q3_changed_pair_fraction
+all,29,45289,8456,0.186712,0.20181,0.135439,0.237912
+ADB-like,27,39850,7592,0.190514,0.204117,0.137813,0.238806
+browser-compatible,2,5439,864,0.158853,0.162649,0.144179,0.18112

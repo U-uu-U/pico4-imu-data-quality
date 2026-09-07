@@ -1,80 +1,309 @@
 {
-  "template_sha256": "8201f712600e40f81db568f882a73d2bbfa6fe812887d43194ac8691ceb2ae73",
-  "exports_total": 30,
-  "exports_retained": 29,
-  "frames_all": 46402,
-  "frames_retained": 45560,
-  "adb_sessions": 27,
-  "browser_compatible_sessions": 2,
-  "acc_frozen_sessions": 5,
-  "orientation_frozen_sessions": 28,
-  "all_state_counts": {
-    "gaze": 25543,
-    "idle": 7708,
-    "postural_shift": 520,
-    "scanning": 1003,
-    "head_turn": 9423,
-    "sudden_turn": 2205
-  },
-  "retained_state_counts": {
-    "gaze": 25412,
-    "idle": 6998,
-    "scanning": 1003,
-    "head_turn": 9423,
-    "postural_shift": 519,
-    "sudden_turn": 2205
-  },
-  "adb_state_counts": {
-    "sudden_turn": 2160,
-    "head_turn": 8876,
-    "postural_shift": 435,
-    "gaze": 23816,
-    "idle": 4832
-  },
-  "browser_state_counts": {
-    "gaze": 1596,
-    "idle": 2166,
-    "scanning": 1003,
-    "head_turn": 547,
-    "postural_shift": 84,
-    "sudden_turn": 45
-  },
-  "retained_duration_min": 122.0,
-  "retained_duration_median": 387.194,
-  "retained_duration_max": 539.451,
-  "annotation": {
-    "inter_rater": {
-      "n": 661,
-      "agreement": 0.789712556732224,
-      "kappa": 0.5930145511727316,
-      "ci95_cluster": [
-        0.5028762547513169,
-        0.6878101793728356
-      ]
+  "generated_at_utc": "2026-09-04T10:26:28.065898+00:00",
+  "signed_consent_records_author_reported": 34,
+  "consent_evidence_basis": "Author-provided private consent inventory; source forms are not included in the replication package",
+  "software_version_audit": [
+    {
+      "scope": "acquisition",
+      "component": "Headset model",
+      "value": "Pico 4 Pro",
+      "status": "AUTHOR_CONFIRMED",
+      "evidence": "Author confirmation; retain a non-identifying device record before submission"
     },
-    "machine_vs_rater_a": {
-      "n": 661,
-      "agreement": 0.7715582450832073,
-      "kappa": 0.567479611381226,
-      "ci95_cluster": [
-        0.39206766423299794,
-        0.6515084064508487
-      ]
+    {
+      "scope": "acquisition",
+      "component": "PICO OS build",
+      "value": "not retained",
+      "status": "NOT_RETAINED",
+      "evidence": "No contemporaneous screenshot, device log, or build record in archive"
     },
-    "machine_vs_rater_b": {
-      "n": 661,
-      "agreement": 0.8033282904689864,
-      "kappa": 0.6041879704096766,
-      "ci95_cluster": [
-        0.3761283943938601,
-        0.6922074547709902
-      ]
+    {
+      "scope": "acquisition",
+      "component": "ADB client/platform-tools version",
+      "value": "not retained",
+      "status": "NOT_RETAINED",
+      "evidence": "No contemporaneous adb version output or installation record in archive"
+    },
+    {
+      "scope": "acquisition",
+      "component": "Browser engine and WebXR runtime",
+      "value": "not retained",
+      "status": "NOT_RETAINED",
+      "evidence": "No contemporaneous About page, User-Agent, or remote-debug record in archive"
+    },
+    {
+      "scope": "archived revision package",
+      "component": "Platform code",
+      "value": "2.3",
+      "status": "VERIFIED_FROM_ARCHIVE",
+      "evidence": "platform/project.config.json"
+    },
+    {
+      "scope": "archived revision package",
+      "component": "Embedded Python",
+      "value": "3.12.8",
+      "status": "VERIFIED_FROM_ARCHIVE",
+      "evidence": "platform/runtime/python-embed/python.exe --version"
+    },
+    {
+      "scope": "archived revision package",
+      "component": "Python websockets",
+      "value": "16.0",
+      "status": "VERIFIED_FROM_ARCHIVE",
+      "evidence": "embedded Python import of websockets.__version__"
     }
+  ],
+  "csv_exports": 30,
+  "dated_report_files": 36,
+  "dated_report_files_by_format": {
+    "html": 20,
+    "pdf": 16
   },
-  "alignment_confident": 10,
-  "alignment_candidates": 19,
-  "selected_reference_count": 28,
-  "reference_status_counts": {
-    "PASS": 28
-  }
+  "retained_sessions": 29,
+  "excluded_sessions": [
+    "S002",
+    "S003",
+    "S004",
+    "S012",
+    "S016"
+  ],
+  "path_counts": {
+    "browser-compatible": 2,
+    "ADB-like": 27
+  },
+  "acc_frozen_sessions": [
+    "S015",
+    "S017",
+    "S018",
+    "S019",
+    "S020"
+  ],
+  "euler_frozen_sessions": [
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010",
+    "S011",
+    "S013",
+    "S014",
+    "S015",
+    "S017",
+    "S018",
+    "S019",
+    "S020",
+    "S021",
+    "S022",
+    "S023",
+    "S024",
+    "S025",
+    "S026",
+    "S027",
+    "S028",
+    "S029",
+    "S030",
+    "S031",
+    "S032",
+    "S033",
+    "S034"
+  ],
+  "total_retained_samples": 45560,
+  "retained_first_to_last_span_s": 11605.76,
+  "retained_long_gap_span_s": 467.3000000000005,
+  "retained_long_gap_count": 242,
+  "retained_sessions_with_long_gaps": 19,
+  "consecutive_identical_export_value_pairs": 988,
+  "annotation_bins": 661,
+  "annotation_alignment_r_range": [
+    0.523,
+    0.898
+  ],
+  "annotation_interfaces_review_mode_false": 10,
+  "adjacent_export_sample_pairs": 45289,
+  "weighted_changed_output_pair_fraction": 0.1867120051226567,
+  "session_median_changed_output_pair_fraction": 0.2018104366347178,
+  "largest_one_at_a_time_threshold_effect": {
+    "threshold_name": "moderate_gyro_min",
+    "nominal_value": 0.3,
+    "perturbation_percent": -30,
+    "perturbed_value": 0.21,
+    "path_group": "all",
+    "n_sessions": 29,
+    "n_samples": 45560,
+    "weighted_output_change_fraction_vs_nominal": 0.06264266900790166,
+    "session_median_change_fraction": 0.06758620689655172,
+    "session_q1_change_fraction": 0.053791887125220456,
+    "session_q3_change_fraction": 0.08362676056338028
+  },
+  "circular_euler_range_weighted_output_change_fraction": 0.0,
+  "euler_range_sensitivity": {
+    "sessions_with_changed_window_range": 1,
+    "samples_with_changed_window_range": 209,
+    "maximum_range_reduction_deg": 355.2199999999999,
+    "rule_outputs_changed": 0
+  },
+  "residual_output_audit": [
+    {
+      "path_group": "all",
+      "reason": "euler_unavailable_gyro_below_0.15",
+      "n_sessions_with_reason": 28,
+      "residual_sample_count": 25636,
+      "fraction_of_group_residual_samples": 0.7849357011635028,
+      "fraction_of_group_all_samples": 0.5626865671641791
+    },
+    {
+      "path_group": "all",
+      "reason": "euler_unavailable_gyro_0.15_to_0.30",
+      "n_sessions_with_reason": 28,
+      "residual_sample_count": 5172,
+      "fraction_of_group_residual_samples": 0.15835884874464176,
+      "fraction_of_group_all_samples": 0.1135206321334504
+    },
+    {
+      "path_group": "all",
+      "reason": "euler_available_low_motion_range_not_met",
+      "n_sessions_with_reason": 1,
+      "residual_sample_count": 1850,
+      "fraction_of_group_residual_samples": 0.05664421310471525,
+      "fraction_of_group_all_samples": 0.04060579455662862
+    },
+    {
+      "path_group": "all",
+      "reason": "euler_available_smooth_conditions_not_met_below_moderate",
+      "n_sessions_with_reason": 1,
+      "residual_sample_count": 2,
+      "fraction_of_group_residual_samples": 6.12369871402327e-05,
+      "fraction_of_group_all_samples": 4.389815627743635e-05
+    },
+    {
+      "path_group": "all",
+      "reason": "other",
+      "n_sessions_with_reason": 0,
+      "residual_sample_count": 0,
+      "fraction_of_group_residual_samples": 0.0,
+      "fraction_of_group_all_samples": 0.0
+    }
+  ],
+  "annotation_agreement": [
+    {
+      "pair": "inter-rater A vs B",
+      "taxonomy": "coarse_3",
+      "n_bins": 661,
+      "n_sessions": 10,
+      "percent_agreement": 86.08169440242058,
+      "cohen_kappa": 0.6982618748728534,
+      "cluster_bootstrap_ci_low": 0.6151161232683461,
+      "cluster_bootstrap_ci_high": 0.7767360583781113,
+      "bootstrap_iterations_requested": 5000,
+      "bootstrap_valid_iterations": 5000,
+      "bootstrap_cluster": "session"
+    },
+    {
+      "pair": "rule output vs rater A",
+      "taxonomy": "coarse_3",
+      "n_bins": 661,
+      "n_sessions": 10,
+      "percent_agreement": 77.3071104387292,
+      "cohen_kappa": 0.5304130376095821,
+      "cluster_bootstrap_ci_low": 0.27499166876228953,
+      "cluster_bootstrap_ci_high": 0.6571662389395948,
+      "bootstrap_iterations_requested": 5000,
+      "bootstrap_valid_iterations": 5000,
+      "bootstrap_cluster": "session"
+    },
+    {
+      "pair": "rule output vs rater B",
+      "taxonomy": "coarse_3",
+      "n_bins": 661,
+      "n_sessions": 10,
+      "percent_agreement": 77.76096822995461,
+      "cohen_kappa": 0.5290334150857432,
+      "cluster_bootstrap_ci_low": 0.3165728847057365,
+      "cluster_bootstrap_ci_high": 0.6178532024981523,
+      "bootstrap_iterations_requested": 5000,
+      "bootstrap_valid_iterations": 5000,
+      "bootstrap_cluster": "session"
+    },
+    {
+      "pair": "inter-rater A vs B",
+      "taxonomy": "neutral_6",
+      "n_bins": 661,
+      "n_sessions": 10,
+      "percent_agreement": 78.97125567322239,
+      "cohen_kappa": 0.5930145511727316,
+      "cluster_bootstrap_ci_low": 0.5021676300249385,
+      "cluster_bootstrap_ci_high": 0.689743413289801,
+      "bootstrap_iterations_requested": 5000,
+      "bootstrap_valid_iterations": 5000,
+      "bootstrap_cluster": "session"
+    },
+    {
+      "pair": "rule output vs rater A",
+      "taxonomy": "neutral_6",
+      "n_bins": 661,
+      "n_sessions": 10,
+      "percent_agreement": 23.751891074130107,
+      "cohen_kappa": 0.15448475050315597,
+      "cluster_bootstrap_ci_low": 0.05010214797049777,
+      "cluster_bootstrap_ci_high": 0.2454528351230759,
+      "bootstrap_iterations_requested": 5000,
+      "bootstrap_valid_iterations": 5000,
+      "bootstrap_cluster": "session"
+    },
+    {
+      "pair": "rule output vs rater B",
+      "taxonomy": "neutral_6",
+      "n_bins": 661,
+      "n_sessions": 10,
+      "percent_agreement": 20.12102874432678,
+      "cohen_kappa": 0.13883446754541373,
+      "cluster_bootstrap_ci_low": 0.05195752844937034,
+      "cluster_bootstrap_ci_high": 0.2095402869802704,
+      "bootstrap_iterations_requested": 5000,
+      "bootstrap_valid_iterations": 5000,
+      "bootstrap_cluster": "session"
+    }
+  ],
+  "annotation_s021_automatic_offset_sensitivity": [
+    {
+      "scenario": "s021_automatic_offset",
+      "comparison": "rule output vs rater A",
+      "omitted_session": "",
+      "s021_time_shift_s": -3.0,
+      "n_bins": 660,
+      "n_sessions": 10,
+      "missing_machine_bins": 1,
+      "percent_agreement": 77.27272727272727,
+      "cohen_kappa": 0.5301264861529699
+    },
+    {
+      "scenario": "s021_automatic_offset",
+      "comparison": "rule output vs rater B",
+      "omitted_session": "",
+      "s021_time_shift_s": -3.0,
+      "n_bins": 660,
+      "n_sessions": 10,
+      "missing_machine_bins": 1,
+      "percent_agreement": 77.72727272727273,
+      "cohen_kappa": 0.528759192158615
+    }
+  ],
+  "annotation_leave_one_session_out_kappa_range": {
+    "rule output vs rater A": [
+      0.44866733286371907,
+      0.5826259080891355
+    ],
+    "rule output vs rater B": [
+      0.4719211145659756,
+      0.5708158931111981
+    ]
+  },
+  "qa_failed": [],
+  "analysis_constraints": [
+    "Stored behavior and confidence columns were not read for revised analyses.",
+    "Browser-compatible and ADB-like streams were stratified; source was not retained in exports.",
+    "Acceleration-excursion and Euler-dependent rules were disabled when their channels were frozen.",
+    "Rule outputs are deterministic software outputs, not externally validated behavioral ground truth."
+  ]
 }

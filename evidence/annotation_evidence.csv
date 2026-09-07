@@ -1,4 +1,0 @@
-﻿comparison,n_bins,observed_agreement,cohen_kappa,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,participants
-inter_rater,661,0.789713,0.593015,0.502876,0.68781,10
-machine_vs_rater_a,661,0.771558,0.56748,0.392068,0.651508,10
-machine_vs_rater_b,661,0.803328,0.604188,0.376128,0.692207,10

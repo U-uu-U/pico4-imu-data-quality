@@ -1,0 +1,7 @@
+﻿pair,taxonomy,n_bins,n_sessions,percent_agreement,cohen_kappa,cluster_bootstrap_ci_low,cluster_bootstrap_ci_high,bootstrap_iterations_requested,bootstrap_valid_iterations,bootstrap_cluster
+inter-rater A vs B,coarse_3,661,10,86.081694,0.698262,0.615116,0.776736,5000,5000,session
+rule output vs rater A,coarse_3,661,10,77.30711,0.530413,0.274992,0.657166,5000,5000,session
+rule output vs rater B,coarse_3,661,10,77.760968,0.529033,0.316573,0.617853,5000,5000,session
+inter-rater A vs B,neutral_6,661,10,78.971256,0.593015,0.502168,0.689743,5000,5000,session
+rule output vs rater A,neutral_6,661,10,23.751891,0.154485,0.050102,0.245453,5000,5000,session
+rule output vs rater B,neutral_6,661,10,20.121029,0.138834,0.051958,0.20954,5000,5000,session

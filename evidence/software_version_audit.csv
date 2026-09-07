@@ -1,0 +1,8 @@
+﻿scope,component,value,status,evidence
+acquisition,Headset model,Pico 4 Pro,AUTHOR_CONFIRMED,Author confirmation; retain a non-identifying device record before submission
+acquisition,PICO OS build,not retained,NOT_RETAINED,"No contemporaneous screenshot, device log, or build record in archive"
+acquisition,ADB client/platform-tools version,not retained,NOT_RETAINED,No contemporaneous adb version output or installation record in archive
+acquisition,Browser engine and WebXR runtime,not retained,NOT_RETAINED,"No contemporaneous About page, User-Agent, or remote-debug record in archive"
+archived revision package,Platform code,2.3,VERIFIED_FROM_ARCHIVE,platform/project.config.json
+archived revision package,Embedded Python,3.12.8,VERIFIED_FROM_ARCHIVE,platform/runtime/python-embed/python.exe --version
+archived revision package,Python websockets,16.0,VERIFIED_FROM_ARCHIVE,embedded Python import of websockets.__version__

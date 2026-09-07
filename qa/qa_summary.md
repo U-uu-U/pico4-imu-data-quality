@@ -1,46 +1,38 @@
-# Third-round revision QA
+# Public release QA
 
-- Passed: 36
-- Failed (script-fixable defects): 0
-- Awaiting author input (blocks submission, not script-fixable): 1
-- Evidence summary: `../evidence/evidence_summary.json`
-- The table-border check inspects every table in the English manuscript for six explicit border edges and fixed grid geometry.
-- An AUTHOR row is not a build defect: the manuscript is complete except for metadata only the authors can supply.
+Status: PASS
 
-- PASS: English manuscript exists (Sensors_IMU_Revision_English_20260827.docx)
-- PASS: Chinese manuscript exists (Sensors_IMU_Revision_Chinese_View_20260827.docx)
-- PASS: Response letter exists (Response_to_Reviewers_English_20260827.docx)
-- PASS: Risk brief exists (作者质询与投稿前风险清单_20260827.docx)
-- PASS: English manuscript has title (title found)
-- PASS: English manuscript has standard sections (section markers)
-- PASS: English manuscript has six figures (6)
-- PASS: English manuscript has appendices (appendix markers)
-- PASS: English manuscript legacy-mainline audit (none)
-- PASS: Chinese manuscript has title (title found)
-- PASS: Chinese manuscript has standard sections (section markers)
-- PASS: Chinese manuscript has six figures (6)
-- PASS: Chinese manuscript has appendices (appendix markers)
-- PASS: Chinese manuscript legacy-mainline audit (none)
-- PASS: English technical keywords (IMU, Pico 4, WebXR, DeviceMotion, WebSocket, data mapping, quality control)
-- PASS: Reference count (28)
-- PASS: Reference indices used ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28])
-- PASS: Main manuscript has no duplicate Table 2 (1)
-- PASS: Main manuscript has no revision insert (absent)
-- PASS: English tables have complete borders (11/11)
-- PASS: English tables have fixed geometry (11/11)
-- PASS: English abstract within MDPI 200-word limit (197)
-- PASS: English keyword count (8)
-- PASS: Back-matter section parity EN/CN (EN 10 / CN 10)
-- PASS: Kappa fair-band lower bound disclosed (min CI low 0.376; disclosed=True)
-- PASS: Sampling-adequacy statement present (True)
-- PASS: Participant count stated (stated)
-- PASS: No pooled cross-route acceleration denominator (absent)
-- AUTHOR: Author-owned back-matter placeholders resolved (4 awaiting author input: Author Contributions, Funding, Institutional Review Board Statement, Data Availability Statement)
-- PASS: Data exports (30)
-- PASS: Retained sessions (29)
-- PASS: ADB-like primary cohort (27)
-- PASS: Browser-compatible cohort (2)
-- PASS: Accelerometer freeze audit (5)
-- PASS: Orientation freeze audit (28)
-- PASS: Annotation evidence (661)
-- PASS: Reference Crossref statuses ({'PASS': 28})
+Release date: 2026-09-07
+
+## Evidence reconciliation
+
+- PASS: 34 unique pseudonymous study identifiers in the flow audit
+- PASS: 30 inventoried CSV exports and 29 retained sessions
+- PASS: 45,560 retained exported samples
+- PASS: exclusion set is S002, S003, S004, S012, and S016
+- PASS: corrected S011, S013, and S014 export mapping
+- PASS: timing-compatibility split is 27 ADB-like and 2 browser-compatible sessions
+- PASS: 5 retained sessions with frozen `accMag`
+- PASS: 28 retained sessions with frozen Euler fields
+- PASS: 661 one-second annotation bins across 10 sessions
+- PASS: main time-window outputs cover every retained row
+- PASS: transition counts do not cross detected long-gap boundaries
+- PASS: historical acquisition-time software versions remain marked as not retained
+
+## Public-package checks
+
+- PASS: no raw motion CSV, video, consent form, questionnaire, DOCX, render, or TIFF is tracked
+- PASS: no local absolute workstation path was found in the release files
+- PASS: no participant name, phone number, email address, WeChat identifier, or consent-form image was found
+- PASS: all committed evidence CSV paths are portable
+- PASS: five current PNG figures are present
+- PASS: unit tests for evidence logic and reference metadata pass
+
+Detailed evidence checks are recorded in `evidence_qa.csv` and
+`evidence_qa.md`.
+
+## Scope boundary
+
+This is a public derived-data snapshot. The controlled source exports and
+original annotation files are intentionally absent, so the source-level audit
+cannot be rebuilt independently from this repository alone.

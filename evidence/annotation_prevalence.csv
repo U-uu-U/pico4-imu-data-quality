@@ -1,0 +1,10 @@
+﻿taxonomy,source,label,count,total_bins,fraction
+coarse_3,annotator A,low_head_motion,446,661,0.674735
+coarse_3,annotator A,ordinary_head_motion,171,661,0.258699
+coarse_3,annotator A,rapid_head_motion,44,661,0.066566
+coarse_3,annotator B,low_head_motion,462,661,0.698941
+coarse_3,annotator B,ordinary_head_motion,162,661,0.245083
+coarse_3,annotator B,rapid_head_motion,37,661,0.055976
+coarse_3,coarse rule output,low_head_motion,428,661,0.647504
+coarse_3,coarse rule output,ordinary_head_motion,194,661,0.293495
+coarse_3,coarse rule output,rapid_head_motion,39,661,0.059002

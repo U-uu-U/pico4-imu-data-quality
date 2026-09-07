@@ -1,0 +1,421 @@
+TY  - JOUR
+AU  - Wodarski, Piotr
+AU  - Jurkojć, Jacek
+AU  - Gzik, Marek
+TI  - Wavelet Decomposition in Analysis of Impact of Virtual Reality Head Mounted Display Systems on Postural Stability
+JO  - Sensors
+PY  - 2020
+VL  - 20
+IS  - 24
+SP  - 7138
+DO  - 10.3390/s20247138
+UR  - https://doi.org/10.3390/s20247138
+ER  -
+
+TY  - JOUR
+AU  - Monica, Riccardo
+AU  - Aleotti, Jacopo
+TI  - Evaluation of the Oculus Rift S tracking system in room scale virtual reality
+JO  - Virtual Reality
+PY  - 2022
+VL  - 26
+IS  - 4
+SP  - 1335-1345
+DO  - 10.1007/s10055-022-00637-3
+UR  - https://doi.org/10.1007/s10055-022-00637-3
+ER  -
+
+TY  - JOUR
+AU  - Palmisano, Stephen
+AU  - Allison, Robert S.
+AU  - Teixeira, Joel
+AU  - Kim, Juno
+TI  - Differences in virtual and physical head orientation predict sickness during active head-mounted display-based virtual reality
+JO  - Virtual Reality
+PY  - 2023
+VL  - 27
+IS  - 2
+SP  - 1293-1313
+DO  - 10.1007/s10055-022-00732-5
+UR  - https://doi.org/10.1007/s10055-022-00732-5
+ER  -
+
+TY  - JOUR
+AU  - Sousa Lima, Wesllen
+AU  - Souto, Eduardo
+AU  - El-Khatib, Khalil
+AU  - Jalali, Roozbeh
+AU  - Gama, Joao
+TI  - Human Activity Recognition Using Inertial Sensors in a Smartphone: An Overview
+JO  - Sensors
+PY  - 2019
+VL  - 19
+IS  - 14
+SP  - 3213
+DO  - 10.3390/s19143213
+UR  - https://doi.org/10.3390/s19143213
+ER  -
+
+TY  - JOUR
+AU  - Sinha, Vikas Kumar
+AU  - Patro, Kiran Kumar
+AU  - Pławiak, Paweł
+AU  - Prakash, Allam Jaya
+TI  - Smartphone-Based Human Sitting Behaviors Recognition Using Inertial Sensor
+JO  - Sensors
+PY  - 2021
+VL  - 21
+IS  - 19
+SP  - 6652
+DO  - 10.3390/s21196652
+UR  - https://doi.org/10.3390/s21196652
+ER  -
+
+TY  - JOUR
+AU  - Zhuo, Sijie
+AU  - Sherlock, Lucas
+AU  - Dobbie, Gillian
+AU  - Koh, Yun Sing
+AU  - Russello, Giovanni
+AU  - Lottridge, Danielle
+TI  - Real-time Smartphone Activity Classification Using Inertial Sensors—Recognition of Scrolling, Typing, and Watching Videos While Sitting or Walking
+JO  - Sensors
+PY  - 2020
+VL  - 20
+IS  - 3
+SP  - 655
+DO  - 10.3390/s20030655
+UR  - https://doi.org/10.3390/s20030655
+ER  -
+
+TY  - JOUR
+AU  - Shoaib, Muhammad
+AU  - Bosch, Stephan
+AU  - Incel, Ozlem
+AU  - Scholten, Hans
+AU  - Havinga, Paul
+TI  - Complex Human Activity Recognition Using Smartphone and Wrist-Worn Motion Sensors
+JO  - Sensors
+PY  - 2016
+VL  - 16
+IS  - 4
+SP  - 426
+DO  - 10.3390/s16040426
+UR  - https://doi.org/10.3390/s16040426
+ER  -
+
+TY  - JOUR
+AU  - Vuong, Thi Hong
+AU  - Doan, Tung
+AU  - Takasu, Atsuhiro
+TI  - Deep Wavelet Convolutional Neural Networks for Multimodal Human Activity Recognition Using Wearable Inertial Sensors
+JO  - Sensors
+PY  - 2023
+VL  - 23
+IS  - 24
+SP  - 9721
+DO  - 10.3390/s23249721
+UR  - https://doi.org/10.3390/s23249721
+ER  -
+
+TY  - JOUR
+AU  - Kim, Yeon-Wook
+AU  - Joa, Kyung-Lim
+AU  - Jeong, Han-Young
+AU  - Lee, Sangmin
+TI  - Wearable IMU-Based Human Activity Recognition Algorithm for Clinical Balance Assessment Using 1D-CNN and GRU Ensemble Model
+JO  - Sensors
+PY  - 2021
+VL  - 21
+IS  - 22
+SP  - 7628
+DO  - 10.3390/s21227628
+UR  - https://doi.org/10.3390/s21227628
+ER  -
+
+TY  - JOUR
+AU  - Seenath, Sowmiya
+AU  - Dharmaraj, Menaka
+TI  - Conformer-Based Human Activity Recognition Using Inertial Measurement Units
+JO  - Sensors
+PY  - 2023
+VL  - 23
+IS  - 17
+SP  - 7357
+DO  - 10.3390/s23177357
+UR  - https://doi.org/10.3390/s23177357
+ER  -
+
+TY  - JOUR
+AU  - Kim, Yeon-Wook
+AU  - Cho, Woo-Hyeong
+AU  - Kim, Kyu-Sung
+AU  - Lee, Sangmin
+TI  - Inertial-Measurement-Unit-Based Novel Human Activity Recognition Algorithm Using Conformer
+JO  - Sensors
+PY  - 2022
+VL  - 22
+IS  - 10
+SP  - 3932
+DO  - 10.3390/s22103932
+UR  - https://doi.org/10.3390/s22103932
+ER  -
+
+TY  - JOUR
+AU  - Steven Eyobu, Odongo
+AU  - Han, Dong Seog
+TI  - Feature Representation and Data Augmentation for Human Activity Classification Based on Wearable IMU Sensor Data Using a Deep LSTM Neural Network
+JO  - Sensors
+PY  - 2018
+VL  - 18
+IS  - 9
+SP  - 2892
+DO  - 10.3390/s18092892
+UR  - https://doi.org/10.3390/s18092892
+ER  -
+
+TY  - JOUR
+AU  - Rosati, Samanta
+AU  - Balestra, Gabriella
+AU  - Knaflitz, Marco
+TI  - Comparison of Different Sets of Features for Human Activity Recognition by Wearable Sensors
+JO  - Sensors
+PY  - 2018
+VL  - 18
+IS  - 12
+SP  - 4189
+DO  - 10.3390/s18124189
+UR  - https://doi.org/10.3390/s18124189
+ER  -
+
+TY  - JOUR
+AU  - Konak, Orhan
+AU  - Wegner, Pit
+AU  - Arnrich, Bert
+TI  - IMU-Based Movement Trajectory Heatmaps for Human Activity Recognition
+JO  - Sensors
+PY  - 2020
+VL  - 20
+IS  - 24
+SP  - 7179
+DO  - 10.3390/s20247179
+UR  - https://doi.org/10.3390/s20247179
+ER  -
+
+TY  - JOUR
+AU  - Kim, Yeon-Wook
+AU  - Lee, Sangmin
+TI  - Data Valuation Algorithm for Inertial Measurement Unit-Based Human Activity Recognition
+JO  - Sensors
+PY  - 2023
+VL  - 23
+IS  - 1
+SP  - 184
+DO  - 10.3390/s23010184
+UR  - https://doi.org/10.3390/s23010184
+ER  -
+
+TY  - JOUR
+AU  - Bangaru, Srikanth Sagar
+AU  - Wang, Chao
+AU  - Aghazadeh, Fereydoun
+TI  - Data Quality and Reliability Assessment of Wearable EMG and IMU Sensor for Construction Activity Recognition
+JO  - Sensors
+PY  - 2020
+VL  - 20
+IS  - 18
+SP  - 5264
+DO  - 10.3390/s20185264
+UR  - https://doi.org/10.3390/s20185264
+ER  -
+
+TY  - JOUR
+AU  - Büscher, Nils
+AU  - Gis, Daniel
+AU  - Kühn, Volker
+AU  - Haubelt, Christian
+TI  - On the Functional and Extra-Functional Properties of IMU Fusion Algorithms for Body-Worn Smart Sensors
+JO  - Sensors
+PY  - 2021
+VL  - 21
+IS  - 8
+SP  - 2747
+DO  - 10.3390/s21082747
+UR  - https://doi.org/10.3390/s21082747
+ER  -
+
+TY  - JOUR
+AU  - Lee, Jung Keun
+AU  - Jung, Woo Chang
+TI  - Quaternion-Based Local Frame Alignment between an Inertial Measurement Unit and a Motion Capture System
+JO  - Sensors
+PY  - 2018
+VL  - 18
+IS  - 11
+SP  - 4003
+DO  - 10.3390/s18114003
+UR  - https://doi.org/10.3390/s18114003
+ER  -
+
+TY  - JOUR
+AU  - Fang, Zhou
+AU  - Woodford, Sarah
+AU  - Senanayake, Damith
+AU  - Ackland, David
+TI  - Conversion of Upper-Limb Inertial Measurement Unit Data to Joint Angles: A Systematic Review
+JO  - Sensors
+PY  - 2023
+VL  - 23
+IS  - 14
+SP  - 6535
+DO  - 10.3390/s23146535
+UR  - https://doi.org/10.3390/s23146535
+ER  -
+
+TY  - JOUR
+AU  - Liu, Ning
+AU  - Qi, Wenhao
+AU  - Su, Zhong
+AU  - Feng, Qunzhuo
+AU  - Yuan, Chaojie
+TI  - Research on Gradient-Descent Extended Kalman Attitude Estimation Method for Low-Cost MARG
+JO  - Micromachines
+PY  - 2022
+VL  - 13
+IS  - 8
+SP  - 1283
+DO  - 10.3390/mi13081283
+UR  - https://doi.org/10.3390/mi13081283
+ER  -
+
+TY  - JOUR
+AU  - Li, Ruihao
+AU  - Fu, Chunlian
+AU  - Yi, Wei
+AU  - Yi, Xiaodong
+TI  - Calib-Net: Calibrating the Low-Cost IMU via Deep Convolutional Neural Network
+JO  - Frontiers in Robotics and AI
+PY  - 2022
+VL  - 8
+IS  -
+SP  - 772583
+DO  - 10.3389/frobt.2021.772583
+UR  - https://doi.org/10.3389/frobt.2021.772583
+ER  -
+
+TY  - JOUR
+AU  - Yin, Mingyue
+AU  - Li, Jianguang
+AU  - Wang, Tiancong
+TI  - A Low-Cost Inertial Measurement Unit Motion Capture System for Operation Posture Collection and Recognition
+JO  - Sensors
+PY  - 2024
+VL  - 24
+IS  - 2
+SP  - 686
+DO  - 10.3390/s24020686
+UR  - https://doi.org/10.3390/s24020686
+ER  -
+
+TY  - JOUR
+AU  - Iluk, Artur
+TI  - Flight Controller as a Low-Cost IMU Sensor for Human Motion Measurement
+JO  - Sensors
+PY  - 2023
+VL  - 23
+IS  - 4
+SP  - 2342
+DO  - 10.3390/s23042342
+UR  - https://doi.org/10.3390/s23042342
+ER  -
+
+TY  - JOUR
+AU  - Weizman, Yehuda
+AU  - Tirosh, Oren
+AU  - Fuss, Franz Konstantin
+AU  - Tan, Adin Ming
+AU  - Rutz, Erich
+TI  - Recent State of Wearable IMU Sensors Use in People Living with Spasticity: A Systematic Review
+JO  - Sensors
+PY  - 2022
+VL  - 22
+IS  - 5
+SP  - 1791
+DO  - 10.3390/s22051791
+UR  - https://doi.org/10.3390/s22051791
+ER  -
+
+TY  - JOUR
+AU  - Cheng, Long
+AU  - Schreiner, Michael
+AU  - Kunz, Andreas
+TI  - Comparing Tracking Accuracy in Standalone MR-HMDs: Apple Vision Pro, Hololens 2, Meta Quest 3, and Pico 4 Pro
+JO  - 30th ACM Symposium on Virtual Reality Software and Technology
+PY  - 2024
+VL  -
+IS  -
+SP  - 1-2
+DO  - 10.1145/3641825.3689518
+UR  - https://doi.org/10.1145/3641825.3689518
+ER  -
+
+TY  - JOUR
+AU  - Davila, Juan
+AU  - Cretu, Ana-Maria
+AU  - Zaremba, Marek
+TI  - Wearable Sensor Data Classification for Human Activity Recognition Based on an Iterative Learning Framework
+JO  - Sensors
+PY  - 2017
+VL  - 17
+IS  - 6
+SP  - 1287
+DO  - 10.3390/s17061287
+UR  - https://doi.org/10.3390/s17061287
+ER  -
+
+TY  - JOUR
+AU  - Abhayasinghe, Nimsiri
+AU  - Murray, Iain
+AU  - Sharif Bidabadi, Shiva
+TI  - Validation of Thigh Angle Estimation Using Inertial Measurement Unit Data against Optical Motion Capture Systems
+JO  - Sensors
+PY  - 2019
+VL  - 19
+IS  - 3
+SP  - 596
+DO  - 10.3390/s19030596
+UR  - https://doi.org/10.3390/s19030596
+ER  -
+
+TY  - JOUR
+AU  - Zandbergen, Marit A.
+AU  - Reenalda, Jasper
+AU  - van Middelaar, Robbert P.
+AU  - Ferla, Romano I.
+AU  - Buurke, Jaap H.
+AU  - Veltink, Peter H.
+TI  - Drift-Free 3D Orientation and Displacement Estimation for Quasi-Cyclical Movements Using One Inertial Measurement Unit: Application to Running
+JO  - Sensors
+PY  - 2022
+VL  - 22
+IS  - 3
+SP  - 956
+DO  - 10.3390/s22030956
+UR  - https://doi.org/10.3390/s22030956
+ER  -
+
+TY  - JOUR
+AU  - Merriaux, Pierre
+AU  - Dupuis, Yohan
+AU  - Boutteau, Rémi
+AU  - Vasseur, Pascal
+AU  - Savatier, Xavier
+TI  - A Study of Vicon System Positioning Performance
+JO  - Sensors
+PY  - 2017
+VL  - 17
+IS  - 7
+SP  - 1591
+DO  - 10.3390/s17071591
+UR  - https://doi.org/10.3390/s17071591
+ER  -

@@ -1,75 +1,96 @@
-# Pico 4 IMU Data Quality Control
+# Pico 4 Pro Motion Export Quality Audit
 
-Evidence and figure package for the manuscript:
+Public derived-data and analysis package for the Sensors manuscript:
 
-**"Auditing a Pico 4 Motion-Sensing Pipeline for Seated 360-Degree VR: ADB IMU, Browser Pose, Rule-Based State Outputs, and Data Quality"**
+**A Quality Audit of Pico 4 Pro Motion Exports and Time-Based Rule Outputs**
 
-Working package for the third revision dated 2026-08-27. The repository focuses on acquisition-route semantics, deterministic rule outputs, and channel-level quality control. It does not present the browser-compatible and ADB-like exports as one calibrated angular-IMU dataset.
+This repository contains the de-identified evidence tables, analysis code,
+reference audit, and publication figures used for the September 2026 revision.
+It replaces the superseded August snapshot.
+
+## Verified snapshot
+
+- 34 anonymized study identifiers are represented in the participant-flow audit.
+- 30 CSV exports were inventoried; 29 sessions passed the prespecified completeness gate.
+- The retained data contain 45,560 exported samples.
+- Timing compatibility separates 27 `ADB-like` sessions from 2
+  `browser-compatible` sessions. These are post hoc timing labels, not verified
+  acquisition routes.
+- Five retained sessions have a frozen `accMag` channel and 28 have frozen
+  Euler-angle fields.
+- The annotation subset contains 661 one-second bins from 10 sessions.
+- Three-class inter-rater agreement is 86.08% with Cohen's kappa 0.698
+  (session-cluster bootstrap 95% CI 0.615-0.777).
+
+Rule outputs are deterministic software outputs, not validated behavior labels.
+The exported browser-compatible `gyro` fields are not claimed to be calibrated
+angular-velocity measurements.
 
 ## Contents
 
 | Path | Description |
 |---|---|
-| `scripts/build_revision_package.py` | Release verifier and sole full-build entry point |
-| `evidence/` | Session audit, route-stratified features, annotation agreement, confusion matrices, threshold sensitivity, and Crossref DOI audit |
-| `figures/` | Six publication figures in PNG format |
-| `qa/qa_summary.md` | QA summary from the private full-build run |
-| `交接索引_20260827.md` | Chinese evidence and handoff index |
+| `scripts/rebuild_evidence.py` | Rebuilds session QC, time-window outputs, ablations, annotation agreement, and source hashes from authorized source files |
+| `scripts/build_figures.py` | Recreates the five manuscript figures from committed evidence tables |
+| `scripts/verify_references.py` | Rechecks bibliographic metadata and writes Zotero-compatible BibTeX/RIS exports |
+| `evidence/` | De-identified participant-flow, session-QC, per-sample derived outputs, sensitivity analyses, annotation results, and source-manifest records |
+| `figures/` | Five publication figures in PNG format |
+| `references/` | Verified bibliography, claim audit summary, BibTeX, and RIS exports |
+| `tests/` | Unit tests for timestamp windows, gap resets, mapping corrections, circular Euler ranges, transitions, and reference metadata |
+| `qa/` | Machine-readable and human-readable evidence QA results |
 
-## Verified snapshot
+See `DATA_DICTIONARY.md` for the role and statistical unit of each evidence
+file.
 
-- 30 analysis exports and 46,402 mapped frames were audited.
-- 29 sessions and 45,560 frames met the duration, frame-count, and required-field criteria.
-- The primary comparable cohort contains 27 ADB-like sessions; two browser-compatible sessions are reported separately.
-- Five retained sessions have a frozen accelerometer-magnitude channel at `accMag = 9.7335` while the exported gyro field remains active.
-- Twenty-eight retained sessions have zero/frozen Euler output.
-- Two annotation returns cover 661 common one-second bins from 10 participants; inter-rater Cohen's kappa is 0.593.
-- All 28 selected DOI records passed Crossref lookup. A PASS confirms bibliographic identity, not the relevance of every citation to a manuscript claim.
+## Install and verify
 
-## Verify this release
-
-Python 3.10 or later is recommended.
+Python 3.12 or later is recommended.
 
 ```bash
 python -m pip install -r requirements.txt
-python scripts/build_revision_package.py --verify-release
+python -m pytest -q
+python scripts/build_figures.py --output-root .
 ```
 
-The verifier checks the committed inventory, scans for workstation-path leakage, reconciles session and channel counts, confirms the 28 Crossref PASS records, and checks the six PNG figures.
+The committed evidence snapshot is independently checkable without access to
+participant source files. A full evidence rebuild requires authorized local
+access to the original CSV exports, dated reports, annotation archive, and
+platform source:
 
-## Full private build
-
-The committed evidence and figures are a verification snapshot, not a raw-data release. Regenerating the manuscripts and evidence requires private inputs that are intentionally excluded from Git:
-
-- the original analysis CSV exports and subject matrix;
-- the platform source tree;
-- both returned annotation directories and alignment table;
-- the full reference-verification table; and
-- the Sensors Word template.
-
-Configure the private locations before running the full build:
-
-```powershell
-$env:PICO4_WORKSPACE = "C:/private/pico4-workspace"
-$env:PICO4_REVISION_ROOT = "C:/private/revision-assets"
-$env:SENSORS_TEMPLATE = "C:/private/Sensors_template.docx"
-python scripts/build_revision_package.py --build
+```bash
+python scripts/rebuild_evidence.py \
+  --raw-root <raw-csv-directory> \
+  --report-root <dated-report-directory> \
+  --annotation-root <annotation-directory> \
+  --platform-root <platform-source-directory> \
+  --output-root .
 ```
 
-The full build writes generated Word files to the repository working directory. They remain excluded by `.gitignore`.
+The report directory must be supplied separately and is not inferred from the
+CSV directory. Historical acquisition-time PICO OS, ADB client, browser engine,
+and WebXR runtime versions were not retained; archived-package versions are
+reported separately in `evidence/software_version_audit.csv`.
 
-## Interpretation boundaries
+## Data-release boundary
 
-- The browser-compatible CSV files do not retain the original `source` field, so the exact WebXR versus DeviceMotion branch cannot be recovered retrospectively.
-- In the inspected WebXR branch, pose-derived translational velocity is written into compatibility fields named `gyro_x/y/z`; browser-compatible `gyroMag` must not be interpreted as validated angular velocity.
-- The fixed 20-frame rule window represents different physical durations at the observed sampling rates.
-- The annotation statistics are agreement references, not accuracy, F1, AUC, or frame-level ground-truth performance.
-- The accelerometer freeze is an observed channel condition; the available evidence does not establish a WebXR buffer-stall root cause.
+The repository contains pseudonymous derived tables. It does **not** contain
+participant names, consent-form images, identifiable video, questionnaires,
+raw motion-export CSVs, or the original annotation files. Exact source files
+remain controlled by the authors because their release requires separate
+ethics, consent, and license review. Consequently, the committed tables support
+verification of reported summaries but do not permit an independent rebuild
+from raw participant data.
 
-## Data availability
+`evidence/sha256_source_manifest.csv` records portable paths, sizes, and hashes
+for provenance checking; the source files themselves are not committed.
 
-Raw frame-level IMU exports, videos, source annotation files, and direct participant-level source records are not included. Public data sharing remains subject to author confirmation, participant consent, and institutional requirements.
+## QA
+
+The public snapshot passed the evidence checks listed in
+`qa/evidence_qa.md`. The release check also scans tracked content for local
+absolute paths and common direct identifiers. See `qa/qa_summary.md`.
 
 ## License
 
-No reuse license has been selected yet. Copyright remains with the authors. Add a license only after all authors approve the code and data-sharing terms.
+No reuse license is granted at this time. Copyright remains with the authors
+until the author group approves explicit code, data, and figure licenses.

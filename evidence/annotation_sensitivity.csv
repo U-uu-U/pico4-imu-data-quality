@@ -1,0 +1,25 @@
+﻿scenario,comparison,omitted_session,s021_time_shift_s,n_bins,n_sessions,missing_machine_bins,percent_agreement,cohen_kappa
+primary_manual_offsets,rule output vs rater A,,0,661,10,0,77.30711,0.530413
+primary_manual_offsets,rule output vs rater B,,0,661,10,0,77.760968,0.529033
+leave_one_session_out,rule output vs rater A,S015,0,611,9,0,76.759411,0.530496
+leave_one_session_out,rule output vs rater B,S015,0,611,9,0,77.741408,0.540078
+leave_one_session_out,rule output vs rater A,S017,0,585,9,0,78.290598,0.562183
+leave_one_session_out,rule output vs rater B,S017,0,585,9,0,77.435897,0.534873
+leave_one_session_out,rule output vs rater A,S018,0,530,9,0,76.037736,0.448667
+leave_one_session_out,rule output vs rater B,S018,0,530,9,0,78.113208,0.471921
+leave_one_session_out,rule output vs rater A,S020,0,543,9,0,79.189687,0.582626
+leave_one_session_out,rule output vs rater B,S020,0,543,9,0,78.821363,0.570816
+leave_one_session_out,rule output vs rater A,S021,0,598,9,0,75.919732,0.526212
+leave_one_session_out,rule output vs rater B,S021,0,598,9,0,76.254181,0.523032
+leave_one_session_out,rule output vs rater A,S022,0,579,9,0,76.856649,0.480244
+leave_one_session_out,rule output vs rater B,S022,0,579,9,0,77.547496,0.48305
+leave_one_session_out,rule output vs rater A,S026,0,614,9,0,76.710098,0.532618
+leave_one_session_out,rule output vs rater B,S026,0,614,9,0,77.198697,0.532081
+leave_one_session_out,rule output vs rater A,S030,0,631,9,0,77.496038,0.54067
+leave_one_session_out,rule output vs rater B,S030,0,631,9,0,77.654517,0.534919
+leave_one_session_out,rule output vs rater A,S032,0,629,9,0,77.424483,0.536254
+leave_one_session_out,rule output vs rater B,S032,0,629,9,0,77.742448,0.532233
+leave_one_session_out,rule output vs rater A,S033,0,629,9,0,78.378378,0.535952
+leave_one_session_out,rule output vs rater B,S033,0,629,9,0,79.173291,0.540569
+s021_automatic_offset,rule output vs rater A,,-3,660,10,1,77.272727,0.530126
+s021_automatic_offset,rule output vs rater B,,-3,660,10,1,77.727273,0.528759

@@ -1,13 +1,25 @@
 *.docx
 render/
-scripts/__pycache__/
+**/__pycache__/
 figures/*.tiff
+figures/*.svg
 qa/render_EN.txt
 qa/render_check_EN.pdf
 qa/qa_report.csv
 template_distill/render/
 *.pyc
+.pytest_cache/
+.venv/
 
 # Private build inputs and local configuration are intentionally excluded.
 private_inputs/
+raw/
+raw_data/
+source_exports/
+source_annotations/
+consent/
+videos/
+*.mp4
+*.mov
+*.zip
 .env

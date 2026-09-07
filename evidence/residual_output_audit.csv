@@ -1,0 +1,16 @@
+﻿path_group,reason,n_sessions_with_reason,residual_sample_count,fraction_of_group_residual_samples,fraction_of_group_all_samples
+all,euler_unavailable_gyro_below_0.15,28,25636,0.784936,0.562687
+all,euler_unavailable_gyro_0.15_to_0.30,28,5172,0.158359,0.113521
+all,euler_available_low_motion_range_not_met,1,1850,0.056644,0.040606
+all,euler_available_smooth_conditions_not_met_below_moderate,1,2,0.000061,0.000044
+all,other,0,0,0,0
+ADB-like,euler_unavailable_gyro_below_0.15,27,24088,0.83085,0.600414
+ADB-like,euler_unavailable_gyro_0.15_to_0.30,27,4904,0.16915,0.122236
+ADB-like,euler_available_low_motion_range_not_met,0,0,0,0
+ADB-like,euler_available_smooth_conditions_not_met_below_moderate,0,0,0,0
+ADB-like,other,0,0,0,0
+browser-compatible,euler_unavailable_gyro_below_0.15,1,1548,0.422028,0.284507
+browser-compatible,euler_unavailable_gyro_0.15_to_0.30,1,268,0.073064,0.049256
+browser-compatible,euler_available_low_motion_range_not_met,1,1850,0.504362,0.340011
+browser-compatible,euler_available_smooth_conditions_not_met_below_moderate,1,2,0.000545,0.000368
+browser-compatible,other,0,0,0,0
