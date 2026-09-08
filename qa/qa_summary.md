@@ -34,7 +34,7 @@ Scientific revision: 2026-09-08. Public synchronization: 2026-09-09.
 - PASS: regenerating both figures reproduces the released PNG pixels exactly
 - PASS: all 30 current derived CSV tables and the evidence summary match the verified local revision after newline normalization
 - PASS: 24 standard-library derived-evidence and exact-manifest checks
-- PASS: 20 tests covering the base analysis, matched window, current entry point, manifest failures, and reference metadata
+- PASS: the scientific snapshot's 20 tests cover the base analysis, matched window, current entry point, manifest failures, and reference metadata
 
 The 60 s completeness criterion is retrospective, not prespecified. The two
 higher-rate sessions have no group-level bootstrap precision interval.
@@ -60,3 +60,14 @@ this update does not claim a fresh online or full-text reference audit.
 This is a public derived-data snapshot. The controlled source exports and
 original annotation files are intentionally absent, so the source-level audit
 cannot be rebuilt independently from this repository alone.
+
+## Downloadable Public Archive
+
+Release `v2026.09.08` adds a separate public reproduction ZIP, checksum, and
+external verification receipt. Its builder uses only the clean committed
+public snapshot and checks every ZIP member against the archive manifest.
+Archive tests cover deterministic bytes, changed, extra, missing and duplicate
+manifest entries, traversal, and nonregular files. The executed archive and
+full-suite results are in the release asset ending in `.verification.json`.
+The scientific evidence and figure bytes are unchanged from `23c30dc`.
+The private author-review ZIP remains local and is not a release asset.

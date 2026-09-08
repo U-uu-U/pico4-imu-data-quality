@@ -3,12 +3,20 @@
 Public derived-data and analysis package for the Sensors manuscript
 **A Quality Audit of Pico 4 Pro Motion Exports and Time-Based Rule Outputs**.
 
-This snapshot implements the 8 September 2026 scientific revision, prepared for
-public synchronization on 9 September. It supersedes the 7 September snapshot
+This snapshot implements the 8 September 2026 scientific revision, published on
+9 September. It supersedes the 7 September snapshot
 `a55072a2ede03ff4d785b261e0997ad3995faffa`, which remains available in Git history.
 The repository contains current derived evidence, analysis code, two main
 figures and editable sources, tests, and the retained reference audit. It does
 not contain the private manuscript-editing package.
+
+The downloadable public reproduction package is available in
+[Release v2026.09.08](https://github.com/U-uu-U/pico4-imu-data-quality/releases/tag/v2026.09.08).
+Download `Pico4_IMU_Public_Reproduction_20260908.zip` and its `.sha256`
+checksum file. The accompanying `.verification.json` records checks performed
+on the isolated archive. See [RELEASE.md](RELEASE.md) for the exact public scope,
+verification commands, and source-version relationship. This is a separate
+public package, not the author-held manuscript revision ZIP.
 
 ## Verified findings
 
@@ -42,6 +50,7 @@ calibrated angular velocity.
 | `scripts/reanalyse_revision.py` | Current full source-reanalysis entry point, including all September additions |
 | `scripts/rebuild_evidence.py` | Retained base analysis engine; used by the current entry point |
 | `scripts/check_package.py` | Standard-library verification of packaged derivatives and file hashes |
+| `scripts/build_public_reproduction.py` | Build and verify the public-only release ZIP from a clean committed snapshot |
 | `scripts/build_figures.py` | Current two figures in PNG, SVG, and PDF formats |
 | `scripts/verify_references.py` | Retained bibliographic verification and BibTeX/RIS export tooling |
 | `study_metadata.json` | Public study facts needed to interpret participants, clusters, and labeling effort |

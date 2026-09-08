@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CORE_FOLDERS = ("scripts", "tests", "evidence", "figures", "references")
 CORE_FILES = ("README.md", "DATA_DICTIONARY.md", "requirements.txt",
-              "study_metadata.json", ".gitignore", ".gitattributes")
+              "study_metadata.json", ".gitignore", ".gitattributes", "RELEASE.md")
 
 
 def read(path):
