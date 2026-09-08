@@ -1,0 +1,17 @@
+{
+  "revision_date": "2026-09-08",
+  "distinct_participants": 34,
+  "sessions_per_participant": 1,
+  "participant_count_basis": "Study-author confirmation on 8 September 2026",
+  "retained_sessions": 29,
+  "retained_samples": 45560,
+  "completeness_threshold_seconds": 60,
+  "completeness_threshold_timing": "retrospective; not preregistered",
+  "analysis_unit": "retained session, corresponding to one distinct participant",
+  "clustering_unit": "participant and session clusters coincide",
+  "rater_labeling_passes_each": 1,
+  "rater_labeling_duration_hours_each_approx": 2,
+  "formal_training_duration_recorded": false,
+  "tool_accuracy_improvement_measured": false,
+  "original_data_access": "Corresponding author on reasonable request, subject to participant consent, privacy protection, and institutional ethics requirements"
+}

@@ -1,0 +1,10 @@
+﻿path_group,output,all_sessions,all_samples,eligible_sessions,eligible_samples,assigned_count,all_sample_fraction,eligible_sample_fraction
+all,smooth_turn_rule,29,45560,1,3000,1002,0.021993,0.334
+all,acceleration_excursion_rule,29,45560,24,40078,525,0.011523,0.013099
+all,low_motion_rule,29,45560,1,3000,92,0.002019,0.030667
+ADB-like,smooth_turn_rule,27,40119,0,0,0,0,
+ADB-like,acceleration_excursion_rule,27,40119,22,34637,441,0.010992,0.012732
+ADB-like,low_motion_rule,27,40119,0,0,0,0,
+browser-compatible,smooth_turn_rule,2,5441,1,3000,1002,0.184157,0.334
+browser-compatible,acceleration_excursion_rule,2,5441,2,5441,84,0.015438,0.015438
+browser-compatible,low_motion_rule,2,5441,1,3000,92,0.016909,0.030667

@@ -1,0 +1,4 @@
+﻿configuration,path_group,n_sessions,n_samples,weighted_output_change_fraction_vs_2s,session_median_change_fraction,session_q1_change_fraction,session_q3_change_fraction,conflict_sample_fraction,changed_count,reset_only_change_count
+legacy_21_samples_gap_reset,all,29,45560,0.02241,0.014111,0.0074,0.039539,0.069864,1021,59
+legacy_21_samples_gap_reset,ADB-like,27,40119,0.024278,0.014111,0.007916,0.042708,0.060321,974,59
+legacy_21_samples_gap_reset,browser-compatible,2,5441,0.008638,0.007833,0.003917,0.01175,0.140232,47,0

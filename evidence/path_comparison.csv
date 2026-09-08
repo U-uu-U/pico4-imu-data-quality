@@ -11,9 +11,9 @@ ADB-like,27,dt_cv,0.561182,0.046188,0.569033,0.547177,0.567936,0.024767,0.597399
 ADB-like,27,maximum_gap_s,1.955,0.398,1.9895,1.934,1.987,0.299,2.089
 ADB-like,27,gap_excluded_span_s,19.797,0,25.996,17.167,21.513,0,34.384
 ADB-like,27,acc_frozen_session_fraction,0.185185,,,,,,
-browser-compatible,2,duration_s,242.223,182.1115,302.3345,122,362.446,122,362.446
-browser-compatible,2,median_export_rate_hz,14.166667,11.25,17.083333,8.333333,20,8.333333,20
-browser-compatible,2,dt_cv,0.030646,0.015323,0.045969,0,0.061291,0,0.061291
-browser-compatible,2,maximum_gap_s,0.099,0.0745,0.1235,0.05,0.148,0.05,0.148
-browser-compatible,2,gap_excluded_span_s,0,0,0,0,0,0,0
+browser-compatible,2,duration_s,242.223,182.1115,302.3345,,,122,362.446
+browser-compatible,2,median_export_rate_hz,14.166667,11.25,17.083333,,,8.333333,20
+browser-compatible,2,dt_cv,0.030646,0.015323,0.045969,,,0,0.061291
+browser-compatible,2,maximum_gap_s,0.099,0.0745,0.1235,,,0.05,0.148
+browser-compatible,2,gap_excluded_span_s,0,0,0,,,0,0
 browser-compatible,2,acc_frozen_session_fraction,0,,,,,,

@@ -26,3 +26,6 @@ priority_low_before_acceleration,browser-compatible,2,5441,0,0,0,0,0.140048
 circular_euler_range,all,29,45560,0,0,0,0,0.06745
 circular_euler_range,ADB-like,27,40119,0,0,0,0,0.057604
 circular_euler_range,browser-compatible,2,5441,0,0,0,0,0.140048
+legacy_21_samples_gap_reset,all,29,45560,0.02241,0.014111,0.0074,0.039539,0.069864
+legacy_21_samples_gap_reset,ADB-like,27,40119,0.024278,0.014111,0.007916,0.042708,0.060321
+legacy_21_samples_gap_reset,browser-compatible,2,5441,0.008638,0.007833,0.003917,0.01175,0.140232

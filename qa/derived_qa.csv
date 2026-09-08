@@ -1,0 +1,25 @@
+check,status
+29_sessions_45560_samples,PASS
+34_distinct_participants_once,PASS
+retrospective_completeness_gate,PASS
+corrected_session_mapping,PASS
+261_exact_components_match_outputs,PASS
+each_taxonomy_closes_per_session,PASS
+conflict_fraction_3073_45560_6_74_percent,PASS
+eligible_denominators_and_fractions,PASS
+n2_ci_suppressed_path_comparison.csv,PASS
+n2_ci_suppressed_rule_distribution_summary.csv,PASS
+inter-rater A vs B_coarse_3,PASS
+rule output vs rater A_coarse_3,PASS
+rule output vs rater B_coarse_3,PASS
+inter-rater A vs B_neutral_6,PASS
+rule output vs rater A_neutral_6,PASS
+rule output vs rater B_neutral_6,PASS
+19_candidates_10_selected,PASS
+20_return_records_and_saved_s021_adjustment,PASS
+661_bins_cover_2400_samples,PASS
+matched_counts_by_timing_group,PASS
+reset_only_59_changes,PASS
+residual_breakdown_closes,PASS
+two_current_figures_with_sources,PASS
+exact_manifest_members_and_hashes,PASS

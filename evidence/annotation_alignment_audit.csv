@@ -1,11 +1,11 @@
-﻿session_id,used_in_agreement_analysis,automatic_offset_s,selected_annotation_start_s,offset_difference_s,cross_correlation_r,peak_margin,overlap_s,automatic_confident_flag,interpretation
-S015,true,196,196,0,0.801,0.081,53,True,Alignment aid only; correlation is not classification validity evidence.
-S017,true,139,139,0,0.523,0.085,79,True,Alignment aid only; correlation is not classification validity evidence.
-S018,true,123,123,0,0.588,0.343,137,True,Alignment aid only; correlation is not classification validity evidence.
-S020,true,169,169,0,0.637,0.201,123,True,Alignment aid only; correlation is not classification validity evidence.
-S021,true,65,68,3,0.594,0.121,64,True,Alignment aid only; correlation is not classification validity evidence.
-S022,true,46,46,0,0.572,0.208,84,True,Alignment aid only; correlation is not classification validity evidence.
-S026,true,4,4,0,0.703,0.102,48,True,Alignment aid only; correlation is not classification validity evidence.
-S030,true,120,120,0,0.648,0.085,31,True,Alignment aid only; correlation is not classification validity evidence.
-S032,true,458,458,0,0.898,0.177,34,True,Alignment aid only; correlation is not classification validity evidence.
-S033,true,78,78,0,0.703,0.091,33,True,Alignment aid only; correlation is not classification validity evidence.
+﻿session_id,automatic_offset_s,correlation_r,peak_margin,automatic_overlap_s,selected,selection_reason,paired_bins,confirmed_offset_A_s,confirmed_offset_B_s,earliest_evaluated_bin_s,offset_evidence,not_independent_alignment_validation
+S015,196,0.801,0.081,53,true,retained,50,196,196,196,original_return_footer,true
+S017,139,0.523,0.085,79,true,retained,76,139,139,139,original_return_footer,true
+S018,123,0.588,0.343,137,true,retained,131,123,123,123,original_return_footer,true
+S020,169,0.637,0.201,123,true,retained,118,169,169,169,original_return_footer,true
+S021,65,0.594,0.121,64,true,retained,63,68,68,68,original_return_footer,true
+S022,46,0.572,0.208,84,true,retained,82,46,46,46,original_return_footer,true
+S026,4,0.703,0.102,48,true,retained,47,4,4,4,original_return_footer,true
+S030,120,0.648,0.085,31,true,retained,30,120,120,120,original_return_footer,true
+S032,458,0.898,0.177,34,true,retained,32,458,458,458,original_return_footer,true
+S033,78,0.703,0.091,33,true,retained,32,78,78,78,original_return_footer,true

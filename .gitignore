@@ -2,7 +2,6 @@
 render/
 **/__pycache__/
 figures/*.tiff
-figures/*.svg
 qa/render_EN.txt
 qa/render_check_EN.pdf
 qa/qa_report.csv
@@ -23,3 +22,14 @@ videos/
 *.mov
 *.zip
 .env
+.runtime_packages/
+baseline_private/
+render_*/
+author_confirmations.json
+qa/editorial_change_log.csv
+qa/visual_qa.json
+qa/final_documents_sha256.csv
+qa/reproduction_qa.json
+scripts/build_documents.py
+scripts/revision_text.py
+scripts/build_reproduction_zip.py

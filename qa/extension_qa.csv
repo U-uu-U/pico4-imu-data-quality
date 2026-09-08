@@ -1,0 +1,11 @@
+﻿check,status
+nineteen_candidates,PASS
+ten_selected_candidates,PASS
+twenty_original_return_footers,PASS
+selection_matches_paired_sessions,PASS
+s021_confirmed_offset_68,PASS
+s021_nudge_trace,PASS
+annotation_samples_2400,PASS
+matched_primary_adb_changes_974,PASS
+reset_only_adb_changes_59,PASS
+all_current_evidence_passed,PASS
