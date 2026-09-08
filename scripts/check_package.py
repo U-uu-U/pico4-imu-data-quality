@@ -109,12 +109,12 @@ def main():
     manifest.parent.mkdir(exist_ok=True)
     if args.write_manifest:
         with manifest.open("w", encoding="utf-8", newline="") as stream:
-            writer = csv.DictWriter(stream, fieldnames=["path", "sha256"])
+            writer = csv.DictWriter(stream, fieldnames=["path", "sha256"], lineterminator="\n")
             writer.writeheader()
             writer.writerows({"path": path.relative_to(ROOT).as_posix(), "sha256": digest(path)} for path in package_files())
     checks["exact_manifest_members_and_hashes"] = manifest.exists() and manifest_matches(read(manifest))
     with (ROOT / "qa" / "derived_qa.csv").open("w", encoding="utf-8", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=["check", "status"])
+        writer = csv.DictWriter(stream, fieldnames=["check", "status"], lineterminator="\n")
         writer.writeheader()
         writer.writerows({"check": key, "status": "PASS" if value else "FAIL"} for key, value in checks.items())
     print(json.dumps({"passed": sum(checks.values()), "total": len(checks), "failed": [key for key, value in checks.items() if not value]}, indent=2))
